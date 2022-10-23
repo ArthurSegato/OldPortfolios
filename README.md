@@ -7,6 +7,6 @@ So, when using this project you will notice that the site will break, due to mis
 
 ## Screenshot showing how the website was:
 ## V1
-![website screenshot]()
+![website screenshot](https://raw.githubusercontent.com/ArthurSegato/Website-Personal-Old/main/V1/screenshot.png)
 ## V2
-![website screenshot]()
+![website screenshot](https://raw.githubusercontent.com/ArthurSegato/Website-Personal-Old/main/V2/screenshot.png)
