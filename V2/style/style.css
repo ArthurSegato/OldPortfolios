@@ -1,0 +1,233 @@
+/* RESETS*/
+* {
+	border: 0px;
+	margin: 0px;
+	padding: 0px;
+}
+body,html{
+	font-family: 'Roboto', sans-serif;
+	background-color: #101010;
+	color: white;
+	height: 100%;
+}
+a, a:hover {
+	text-decoration: none;
+	color: white;
+}
+.sideNav {
+  height: 100%;
+  width: 0%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #101010;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  text-align:center;
+}
+.sideNav a {
+  padding: 8px 8px 8px 32px;
+  display: block;
+  transition: 0.3s;
+}
+.menu-btn {
+	display: inline-block;
+	position: absolute;
+	top: 5%;
+	right: 5%;
+	cursor: pointer;
+	z-index: 2;
+}
+.bar1, .bar3 {
+	position: relative;
+	left: 10px;
+	width: 50px;
+	height: 5px;
+	background-color: #ffffff;
+	margin: 10px 0;
+	transition: 0.4s;
+}
+.bar2 {
+	width: 60px;
+	height: 5px;
+	background-color: #ffffff;
+	margin: 10px 0;
+	transition: 0.4s;
+}
+.change .bar1 {
+	-webkit-transform: rotate(-45deg) translate(-15px, 5px);
+	transform: rotate(-45deg) translate(-15px, 5px);
+}
+.change .bar2 {
+	opacity: 0;
+}
+.change .bar3 {
+	-webkit-transform: rotate(45deg) translate(-16px, 5px);
+	transform: rotate(45deg) translate(-16px, -5px);
+}
+/* HOME */
+#home {
+	padding: 35% 0 15% 13%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	min-height: 100vh;
+}
+.title h1 {
+	font-family: 'True Lies', sans-serif;
+	letter-spacing: 0.2em;
+	margin-bottom: 0;
+}
+.list {
+	margin-top: 50px;
+}
+.list ul {
+	list-style-type: none;
+	margin: 0px;
+}
+.list li {
+	margin-bottom: 5%;
+}
+#social-icons {
+	display: inline-block;
+    margin-top: 10px;
+}
+.social {
+	position: relative;
+	left: -100vw;
+	margin-right: 10px;
+}
+.change .social{
+	left: 0vw;
+}
+.social svg {
+	width: 30px;
+	opacity: 0;
+	transition: opacity 0.3s ease-in-out;
+}
+.change .social svg {
+	opacity: 1;
+	transition: opacity 0.3s ease-in-out;
+}
+.cell {
+	height: 400px;
+	padding: 0;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.cell-body {
+	height: 100%;
+	width: 100%;
+	transition-duration: 0.5s;
+	opacity: 0;
+	overflow: none;
+}
+.cell-body:hover {
+	background-color: black;
+	transition-duration: 0.5s;
+	opacity: 0.8;
+}
+.cell p {
+	position: relative;
+	text-align: center;
+	top: 50%;
+	transform: translate(0, -50%);
+}
+.video-container {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width:100%;
+    height:100%;
+    overflow: hidden;
+    z-index: -2;
+}
+.video-container video {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.chromatic{
+	text-shadow: 0.8px -0.8px 0px rgba(58, 22, 255, 1), -0.5px 0.5px 0px rgba(255, 24, 14, 1);
+}
+.chromatic-light{
+	text-shadow: 0.5px -0.5px 0px rgba(58, 22, 255, 1), -0.3px 0.3px 0px rgba(255, 24, 14, 1);
+}
+.chromatic-box{
+	box-shadow: 0.8px -0.8px 0px rgba(58, 22, 255, 1), -0.5px 0.5px 0px rgba(255, 24, 14, 1);
+}
+.thin {
+	font-weight: 100;
+}
+.regular{
+	font-weight: 400;
+}
+.ninety-six {
+	font-size: calc(1.5625vw + 40px);
+}
+.forty {
+	font-size: calc(1.1160714285714286vw + 21.428571428571427px);
+}
+.thirty {
+	font-size: calc(0.6696428571428571vw + 17.857142857142858px);
+}
+@media (min-width: 768px) {
+	.ninety-six {
+		font-size: calc(2.195945945945946vw + 40.13513513513514px);
+	}
+	.forty {
+		font-size: calc(0.8445945945945946vw + 23.513513513513512px);
+	}
+	.thirty {
+		font-size: calc(0.5067567567567568vw + 19.10810810810811px);
+	}
+	.list li {
+		margin-bottom: 2%;
+	}
+	#home {
+		padding: 25% 0 15% 13%;
+	}
+}
+@media (min-width: 1360px) {
+	.ninety-six {
+		font-size: calc(4.642857142857143vw + 6.857142857142857px);
+	}
+	.forty {
+		font-size: calc(0.8928571428571428vw + 22.857142857142858px);
+	}
+	.thirty {
+		font-size: calc(0.7142857142857143vw + 16.285714285714285px);
+	}
+	.list li {
+		margin-bottom: 1%;
+	}
+	#home {
+		padding: 20% 0 15% 13%;
+	}
+}
+@media (min-width: 1920px) {
+	.ninety-six {
+		font-size: 96px;
+	}
+	.forty {
+		font-size: 40px;
+	}
+	.thirty {
+		font-size: 30px;
+	}
+	.list li {
+		margin-bottom: 0%;
+	}
+	#home {
+		padding: 15% 0 15% 13%;
+	}
+}
+@media (min-width: 200px) and (orientation : landscape) {
+	#home {
+		padding: 15% 0 15% 13%;
+	}
+}

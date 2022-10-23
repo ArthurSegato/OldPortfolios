@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<url>
+  <loc>https://arthursegato.com/</loc>
+  <lastmod>2021-06-25T02:29:59+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://arthursegato.com/resume/ArthurSegatoResume.pdf</loc>
+  <lastmod>2021-06-23T21:51:51+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://arthursegato.com/credits/</loc>
+  <lastmod>2021-01-24T05:33:51+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://arthursegato.com/about/</loc>
+  <lastmod>2021-03-27T04:57:18+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+</urlset>

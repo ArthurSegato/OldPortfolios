@@ -1,0 +1,14 @@
+{
+    "author": "Arthur Segato",
+    "name": "Arthur Segato",
+    "short_name": "Arthur Segato",
+    "description": "Hello! i am arthur segato, a game developer interested in web development and networking!",
+    "lang": "en-US",
+    "start_url": "https://arthursegato.com/",
+    "icons": [
+        { "src": "favicon-512.png", "type": "image/png", "sizes": "512x512" }
+    ],
+    "theme_color": "#101010",
+    "background_color": "#101010",
+    "display": "standalone"
+}

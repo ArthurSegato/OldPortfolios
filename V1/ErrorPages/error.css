@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100');
+ * {
+     padding: 0;
+     margin: 0;
+     font-family: 'Montserrat', sans-serif;
+     color: #ffffff;
+     overflow: hidden;
+     text-shadow: 0.06rem 0 0.06rem #ea36af, -0.125rem 0 0.06rem #75fa69;
+     animation-duration: 0.01s;
+     animation-name: textflicker;
+     animation-iteration-count: infinite;
+     animation-direction: alternate;
+}
+ h1 {
+     font-size: 100px;
+}
+ .text {
+     position: absolute;
+     top: 50%;
+     width: 100%;
+     height: 250px;
+     margin-top: -125px;
+     text-align: center;
+}
+ @keyframes textflicker {
+     from {
+         text-shadow: 1px 0 0 #ea36af, -2px 0 0 #75fa69;
+    }
+     to {
+         text-shadow: 2px 0.5px 2px #ea36af, -1px -0.5px 2px #75fa69;
+    }
+}
