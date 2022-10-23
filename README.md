@@ -5,8 +5,8 @@ I also removed all the images, since I made this code public domain.
 
 So, when using this project you will notice that the site will break, due to missing files, I encourage you to add your own files.
 
-## Screenshot showing how the website was:
-## V1
+## Screenshots showing how the website was:
+### V1
 ![website screenshot](https://raw.githubusercontent.com/ArthurSegato/Website-Personal-Old/main/V1/screenshot.png)
-## V2
+### V2
 ![website screenshot](https://raw.githubusercontent.com/ArthurSegato/Website-Personal-Old/main/V2/screenshot.png)
